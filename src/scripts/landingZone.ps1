@@ -1,5 +1,5 @@
 $DeploymentName = ('lzVending' + ((Get-Date).ToUniversalTime()).ToString('MMdd-HHmm'))
-$Location = 'australiaeast'
+$Location = 'westus'
 $ManagementGroupId = 'mg-alz'
 $TemplateFile = '..\orchestration\main.bicep'
 $TemplateParameterFile = '..\configuration\sub-sap-prd-01.parameters.bicepparam'
