@@ -1,5 +1,6 @@
+#.NOTES - edit RTaylor--0.1 2023-12-16
 ---
-name: Landing Zone Vending Deployment
+name: Landing Zone Deployment
 
 on:
   push:
@@ -13,8 +14,8 @@ on:
 
 env:
   managementGroupId: ''
-  location: 'australiaeast'
-  moduleName: LandingZoneVendingMachine
+  location: 'uswest'
+  moduleName: LandingZoneMachine
   templateFile: src/orchestration/main.bicep
   templateParameterFile: src/configuration/sub-sap-prd-01.parameters.bicepparam
   runNumber: ${{ github.run_number }}
