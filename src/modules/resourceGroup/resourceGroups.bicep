@@ -2,7 +2,7 @@ targetScope = 'subscription'
 
 metadata name = 'ALZ Bicep - Resource Group module'
 metadata description = 'module used to create multiple Resource Groups for Azure Landing Zones'
-metadata author = 'Insight APAC Platform Engineering'
+metadata author = 'SLKRCK Platform Engineering'
 
 @sys.description('An array of Resource Group Names.')
 param resourceGroupNames array = []
