@@ -1,6 +1,6 @@
 targetScope = 'subscription'
 
-metadata name = 'ALZ Bicep - Resource Group module'
+metadata name = 'Azure Landing Zone Bicep - Resource Group module'
 metadata description = 'module used to create multiple Resource Groups for Azure Landing Zones'
 metadata author = 'SLKRCK Platform Engineering'
 
