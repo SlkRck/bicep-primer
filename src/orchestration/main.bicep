@@ -1,8 +1,8 @@
 targetScope = 'managementGroup'
 
-metadata name = 'Azure Landing Zone Vending'
+metadata name = 'Azure Landing Zone'
 metadata description = 'These are the input parameters for the Bicep module'
-metadata author = 'Insight APAC Platform Engineering'
+metadata author = 'SLKRCK Platform Engineering'
 
 // Subscription Creation Module Parameters
 @metadata({
